@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录系统</title>
+    <script type="application/javascript" src="media/js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<h1>欢迎登录</h1>
+<div>
+    <form id="fm" >
+        <p><label>用户名：</label><input type="text" name="username" placeholder="请输入用户名"></p>
+        <p><label>密码：</label><input type="password" name="psw" placeholder="请输入密码"></p>
+        <p><input type="button" value="登录" onclick="subForm()"></p>
+    </form>
+</div>
+<script type="application/javascript">
+    function subForm(){
+        $.ajax({
+        url:"/api/user/login.do",
+        method:"post",
+        data:$("#fm").serialize(),
+        success:function(obj){
+            if(obj.code==200){
+                    location.href="index.html";
+            }else{
+                alert("登录失败");
+            }
+        }
+        })
+    }
+</script>
+</body>
+</html>

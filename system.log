@@ -1,0 +1,97 @@
+2019-10-23 10:10:19.591  INFO 18608 --- [main] com.feri.rbac.RbacApplication            : Starting RbacApplication on feri with PID 18608 (H:\Project\IdeProject2.0\CommonRbac\target\classes started by xing in H:\Project\IdeProject2.0\CommonRbac)
+2019-10-23 10:10:19.623  INFO 18608 --- [main] com.feri.rbac.RbacApplication            : No active profile set, falling back to default profiles: default
+2019-10-23 10:10:21.417  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$9ab5d633] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:21.454  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration$$EnhancerBySpringCGLIB$$9d4914d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:21.484  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.feri.rbac.config.ShiroConfig$$EnhancerBySpringCGLIB$$46407a60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:21.491  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:21.503  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.feri.rbac.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:22.035  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'createSM' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:22.047  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:22.090  INFO 18608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:10:22.657  INFO 18608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-10-23 10:10:22.686  INFO 18608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 10:10:22.687  INFO 18608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 10:10:23.002  INFO 18608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 10:10:23.002  INFO 18608 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3261 ms
+2019-10-23 10:10:23.725  INFO 18608 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-23 10:10:24.754  INFO 18608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 10:10:24.924  INFO 18608 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-23 10:10:25.337  INFO 18608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-10-23 10:10:25.340  INFO 18608 --- [main] com.feri.rbac.RbacApplication            : Started RbacApplication in 6.435 seconds (JVM running for 7.832)
+2019-10-23 10:10:44.305  INFO 18608 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 10:10:44.306  INFO 18608 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 10:10:44.320  INFO 18608 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-10-23 10:11:27.936  INFO 7332 --- [main] com.feri.rbac.RbacApplication            : Starting RbacApplication on feri with PID 7332 (H:\Project\IdeProject2.0\CommonRbac\target\classes started by xing in H:\Project\IdeProject2.0\CommonRbac)
+2019-10-23 10:11:27.940  INFO 7332 --- [main] com.feri.rbac.RbacApplication            : No active profile set, falling back to default profiles: default
+2019-10-23 10:11:30.552  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$fff90a6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:30.637  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration$$EnhancerBySpringCGLIB$$28c4913] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:30.670  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.feri.rbac.config.ShiroConfig$$EnhancerBySpringCGLIB$$ab83ae9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:30.704  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:30.721  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.feri.rbac.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:31.543  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'createSM' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:31.567  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:31.638  INFO 7332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 10:11:32.300  INFO 7332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-10-23 10:11:32.322  INFO 7332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 10:11:32.322  INFO 7332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 10:11:32.627  INFO 7332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 10:11:32.627  INFO 7332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4557 ms
+2019-10-23 10:11:33.648  INFO 7332 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-23 10:11:35.196  INFO 7332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-10-23 10:11:35.329  INFO 7332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 10:11:35.455  INFO 7332 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-23 10:11:35.815  INFO 7332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-23 10:11:35.899  INFO 7332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-23 10:11:35.944  INFO 7332 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-23 10:11:36.205  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_1
+2019-10-23 10:11:36.214  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingDELETE_1
+2019-10-23 10:11:36.220  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageUsingGET_1
+2019-10-23 10:11:36.231  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2019-10-23 10:11:36.234  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2019-10-23 10:11:36.245  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_2
+2019-10-23 10:11:36.248  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingDELETE_2
+2019-10-23 10:11:36.251  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageUsingGET_2
+2019-10-23 10:11:36.270  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2019-10-23 10:11:36.272  INFO 7332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_2
+2019-10-23 10:11:36.330  INFO 7332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-10-23 10:11:36.333  INFO 7332 --- [main] com.feri.rbac.RbacApplication            : Started RbacApplication in 9.107 seconds (JVM running for 9.965)
+2019-10-23 10:11:40.060  INFO 7332 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 10:11:40.060  INFO 7332 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 10:11:40.083  INFO 7332 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2019-10-23 14:45:07.192  INFO 5696 --- [main] com.feri.rbac.RbacApplication            : Starting RbacApplication on feri with PID 5696 (H:\Project\IdeProject2.0\CommonRbac\target\classes started by xing in H:\Project\IdeProject2.0\CommonRbac)
+2019-10-23 14:45:07.197  INFO 5696 --- [main] com.feri.rbac.RbacApplication            : No active profile set, falling back to default profiles: default
+2019-10-23 14:45:09.498  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$7b9264c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:09.540  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroAnnotationProcessorAutoConfiguration$$EnhancerBySpringCGLIB$$7e25a368] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:09.582  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.feri.rbac.config.ShiroConfig$$EnhancerBySpringCGLIB$$271d08f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:09.596  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:09.608  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.feri.rbac.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:10.176  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'createSM' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:10.188  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:10.226  INFO 5696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-23 14:45:10.748  INFO 5696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-10-23 14:45:10.799  INFO 5696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-23 14:45:10.800  INFO 5696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-10-23 14:45:11.028  INFO 5696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-23 14:45:11.028  INFO 5696 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3731 ms
+2019-10-23 14:45:12.007  INFO 5696 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-23 14:45:13.649  INFO 5696 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-10-23 14:45:13.957  INFO 5696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-23 14:45:14.088  INFO 5696 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-23 14:45:14.383  INFO 5696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-23 14:45:14.438  INFO 5696 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-23 14:45:14.491  INFO 5696 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-23 14:45:14.693  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_1
+2019-10-23 14:45:14.695  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingDELETE_1
+2019-10-23 14:45:14.697  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageUsingGET_1
+2019-10-23 14:45:14.701  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2019-10-23 14:45:14.705  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2019-10-23 14:45:14.708  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: allUsingGET_2
+2019-10-23 14:45:14.709  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delUsingDELETE_2
+2019-10-23 14:45:14.711  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getPageUsingGET_2
+2019-10-23 14:45:14.729  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2019-10-23 14:45:14.731  INFO 5696 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_2
+2019-10-23 14:45:14.837  INFO 5696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2019-10-23 14:45:14.841  INFO 5696 --- [main] com.feri.rbac.RbacApplication            : Started RbacApplication in 8.483 seconds (JVM running for 9.226)
+2019-10-23 14:45:46.476  INFO 5696 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-23 14:45:46.476  INFO 5696 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-23 14:45:46.493  INFO 5696 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
