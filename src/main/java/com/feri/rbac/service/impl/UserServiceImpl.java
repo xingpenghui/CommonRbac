@@ -1,5 +1,6 @@
 package com.feri.rbac.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.feri.rbac.dao.UserDao;
 import com.feri.rbac.dto.UserDto;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @program: CommonRbac
@@ -26,26 +28,31 @@ import java.util.List;
 public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserService {
     @Override
     public R login(UserDto userDto) {
-        //查询
-        if (userDto.getUsername().equals("admin")) {
-            //模拟成功
-            //1、创建主题对象
-            Subject subject = SecurityUtils.getSubject();
-            //2、创建令牌 用户名密码令牌
-            UsernamePasswordToken token = new UsernamePasswordToken(userDto.getUsername(), userDto.getPsw());
-            //3、登录 告诉Shiro登录成功
-            subject.login(token);
-
-            return R.setOK("OK");
-        } else {
-            return R.setERROR();
+        //1、查询用户
+        User user=getBaseMapper().selectOne(new QueryWrapper<User>().eq("mname",userDto.getUsername()));
+        //2、验证账号是否存在
+        if(user!=null){
+            //3、验证密码
+            if(Objects.equals(user.getPassword(),userDto.getPsw())){
+                //4、操作Shiro
+                //1、创建主题对象
+                Subject subject = SecurityUtils.getSubject();
+                //2、创建令牌 用户名密码令牌
+                UsernamePasswordToken token = new UsernamePasswordToken(userDto.getUsername(), userDto.getPsw());
+                //3、存储当前的User
+                subject.getSession().setAttribute("curruser",user);
+                //4、登录 告诉Shiro登录成功
+                subject.login(token);
+                return R.setOK("OK");
+            }
         }
+        return R.setERROR();
     }
 
     @Override
     public R queryMenu() {
-//        User user= (User) SecurityUtils.getSubject().getSession().getAttribute("curruser");
-        List<Permission> permissions=getBaseMapper().selectMenuByUid(1);
+        User user= (User) SecurityUtils.getSubject().getSession().getAttribute("curruser");
+        List<Permission> permissions=getBaseMapper().selectMenuByUid(user.getId());
         //组装菜单信息
         List<MenuBean> menus=new ArrayList<>();
         //循环进行菜单内容的组装 安装级别关系

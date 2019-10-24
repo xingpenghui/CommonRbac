@@ -14,4 +14,9 @@ public interface UserDao extends BaseMapper<User> {
     @ResultType(Permission.class)
     List<Permission> selectMenuByUid(int uid);
 
+    @Select("select p.prms from sys_permission p inner join sys_rolepermission rp on p.id=rp.pid inner join sys_userrole ur on ur.rid=rp.rid where ur.uid=#{uid} and p.type=2 order by p.id")
+    @ResultType(String.class)
+    List<String> selectPerms(int uid);
+
+
 }

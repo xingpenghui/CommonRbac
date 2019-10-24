@@ -21,6 +21,11 @@ public class PermissionController {
     private PermissionService permissionService;
 
 
+    //校验是否存在某个权限
+    @GetMapping("/api/permission/checkperms.do")
+    public R check(String perms){
+        return permissionService.checkPerms(perms);
+    }
     //增
     @PostMapping("/api/permission/save.do")
     public R save(@RequestBody Permission permission){
